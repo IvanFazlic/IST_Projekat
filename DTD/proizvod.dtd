@@ -1,0 +1,11 @@
+<!ELEMENT OnlineRadnja (Proizvodi)>
+<!ELEMENT Proizvodi (Proizvodi+)>
+<!ELEMENT Proizvod (Kategorija,Cena,TekstOglasa,TagOglasa,ProizvodNaAkciji)>
+<!ELEMENT Kategorija (#PCDATA)>
+<!ELEMENT Cena (#PCDATA)>
+<!ATTLIST Cena currency (din) "din">
+<!ELEMENT TekstOglasa (#PCDATA)>
+<!ELEMENT TagOglasa (#PCDATA) >
+<!ELEMENT ProizvodNaAkciji (#PCDATA)>
+<!ATTLIST ProizvodNaAkciji ExpirationDate CDATA #REQUIRED>
+<!ATTLIST ProizvodNaAkciji OnSale (Yes | No) #REQUIRED>
