@@ -1,0 +1,19 @@
+<OnlineRadnja>
+    <Proizvodi>
+        <Proizvod>
+            <Kategorija>
+            </Kategorija>
+            <Cena currency="din">17000</Cena>
+            <TekstOglasa>LG LED monitor sa dijagonalom od 24incha i FreeSync-IPS panelom.</TekstOglasa>
+            <TagOglasa></TagOglasa>
+            <ProizvodNaAkciji OnSale="Yes" ExpirationDate="05/07/2022">15000</ProizvodNaAkciji>
+        <Proizvod>
+        </Proizvod>
+            <Kategorija>Laptop</Kategorija>
+            <Cena currency="din">97000</Cena>
+            <TekstOglasa>Lenovo ThinkPad sa IPS panelom,intel i5 procesorom,8b RAM i 256gb ssd.</TekstOglasa>
+            <TagOglasa></TagOglasa>
+            <ProizvodNaAkciji OnSale="No" ExpirationDate="05/08/2022">92000</ProizvodNaAkciji>
+        </Proizvod>
+    </Proizvodi>
+</OnlineRadnja>
